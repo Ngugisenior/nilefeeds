@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+    <head>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-K9GQF72');</script>
+            <!-- End Google Tag Manager -->
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Nile Feeds</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <script src="assets/js/airtable.js"></script>
+        <link rel="icon" href="https://i.postimg.cc/ZY3T5TwC/cooltext360231329786791.gif" type="image/gif" sizes="16x16">
+        <link href='https://fonts.googleapis.com/css?family=Montez' rel='stylesheet' type='text/css'>
+        <style>
+            .banner{
+                max-width: 100vw;
+                max-height: 70vh;
+                overflow: hidden;
+                margin:auto;
+                display: block;
+                place-items: center;
+                box-sizing: border-box;
+                background-color:transparent;
+                box-sizing:border-box;
+                justify-content: center;
+                margin-bottom:2vh;
+            }
+            .a{
+                height:auto;
+            }
+            *{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+}
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+
+.banner-container h1{
+    text-align: center;
+	display: table;
+	margin: 5% auto 0;
+	text-transform: uppercase;
+	font-family: 'Anaheim', sans-serif;
+	font-size: 4em;
+	font-weight: 400;
+	text-shadow: 0 1px white, 0 2px black;
+}
+.banner-container{
+	margin: 4% auto;
+	width: 210px;
+	height: 140px;
+	position: relative;
+	perspective: 1000px;
+}
+#carousel{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	transform-style: preserve-3d;
+	animation: rotation 20s infinite linear;
+}
+#carousel:hover{
+	animation-play-state: paused;
+}
+#carousel figure{
+	display: block;
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 10px;
+	top: 10px;
+	background: black;
+	overflow: hidden;
+	border: solid 5px black;
+}
+#carousel figure:nth-child(1){transform: rotateY(0deg) translateZ(288px);}
+#carousel figure:nth-child(2) { transform: rotateY(40deg) translateZ(288px);}
+#carousel figure:nth-child(3) { transform: rotateY(80deg) translateZ(288px);}
+#carousel figure:nth-child(4) { transform: rotateY(120deg) translateZ(288px);}
+#carousel figure:nth-child(5) { transform: rotateY(160deg) translateZ(288px);}
+#carousel figure:nth-child(6) { transform: rotateY(200deg) translateZ(288px);}
+#carousel figure:nth-child(7) { transform: rotateY(240deg) translateZ(288px);}
+#carousel figure:nth-child(8) { transform: rotateY(280deg) translateZ(288px);}
+#carousel figure:nth-child(9) { transform: rotateY(320deg) translateZ(288px);}
+
+.banner-container img{
+	-webkit-filter: grayscale(1);
+    cursor: pointer;
+    max-width: 100%;
+    max-height: 100%;
+	transition: all .5s ease;
+}
+.banner-container img:hover{
+	-webkit-filter: grayscale(0);
+  transform: scale(1.2,1.2);
+}
+
+@keyframes rotation{
+	from{
+		transform: rotateY(0deg);
+	}
+	to{
+		transform: rotateY(360deg);
+	}
+}
+            .nilefeeds{
+                display: grid;
+                width: 100%;
+                grid-template-columns: 1fr 1fr;
+                gap: 2em;
+                color: chartreuse;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K9GQF72"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            <!-- End Google Tag Manager (noscript) -->
+            
+        <!--Start of Tawk.to Script-->
+        <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/5f3ee321cc6a6a5947ad7e0d/default';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+        </script>
+        <!--End of Tawk.to Script-->
+        <div class="nav" id="nav">
+            <ul>
+                <li><a href="index.html">About Us</a></li>
+                <li id="market">Marketplace</li>
+                <li id="social">Social</li>
+                <li id="team">Team</li>
+            </ul>
+        </div>
+        <div class="banner">
+           <div class="banner-container">
+                 <div id="carousel">
+                     <figure><img src="https://i.postimg.cc/dQ4JcDzb/118226523-3515292721837191-8349634328320966868-o.jpg" loading="lazy" alt=""></figure>
+                     <figure><img src="https://i.postimg.cc/rFsMVMTK/118208937-3515291165170680-7540022867703504991-n.jpg" loading="lazy" alt=""></figure>
+                     <figure><img src="https://i.postimg.cc/tCcy7wRD/118180900-3515291265170670-8132935854030175126-n.jpg" loading="lazy"></figure>
+                     <figure><img src="https://i.postimg.cc/5tdVSzCC/118138384-3515290775170719-6148103745015906288-n.jpg" loading="lazy" alt=""></figure>
+                     <figure><img src="https://i.postimg.cc/7L3ysL3Q/118144676-3515291415170655-5521798809574171258-o.jpg" loading="lazy" alt=""></figure>
+                     <figure><img src="https://i.postimg.cc/dQ4JcDzb/118226523-3515292721837191-8349634328320966868-o.jpg" loading="lazy" alt=""></figure>
+                     <figure><img src="https://i.postimg.cc/vTqyrSrY/118209493-3515289938504136-4905250715375525188-n.jpg" loading="lazy" alt=""></figure>
+                     <figure><img src="https://i.postimg.cc/SsmbwpVQ/43124189-2130395520326925-2384822741913042944-o.jpg" loading="lazy" alt=""></figure>
+                     <figure><img src="https://i.postimg.cc/D0bX6yBs/Whats-App-Image-2020-08-16-at-21-17-37.jpg" loading="lazy" alt=""></figure>
+                     <figure><img src="https://i.postimg.cc/zGYndKmf/Whats-App-Image-2020-08-16-at-21-17-50.jpg" loading="lazy" alt=""></figure>
+                 </div>
+             </div>
+        </div>
+        <main id="container" class="container">
+            <h1 class="mktplc">About Us</h1>
+            <div class="nile">
+                <div class="nile-image">
+                    <div class="image">
+                        <img src="https://i.postimg.cc/FHMhqM0y/cereals.jpg" loading="lazy" alt=""> 
+                    </div>
+                </div>
+                <div class="nile-content">
+                    <div class="nile-content-card">
+                        <h1>Nile Feeds & Cereals Supplies</h1>
+                        <div class="content_items">
+                            <p>We specialize in the supply of <span class="important">high quality animal feeds raw materials and cereals</span> for the manufacture of animal feeds</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nile a">
+                <div class="nile-content">
+                    <div class="nile-content-card">
+                        <h1>Our Mission</h1>
+                        <div class="content_items">
+                            <p>To Supply our clients with <span class="important">affordable</span> and <span class="important">high quality standard</span> animal feeds raw materials that meets all their needs</p>
+                            <div class="product-list"> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nile-image">
+                    <div class="image">
+                        <img src="https://i.postimg.cc/dQ5wvk8t/beans.png" loading="lazy" alt=""> 
+                    </div>
+                </div>
+            </div>
+            <div class="nile">
+                <div class="nile-image">
+                    <div class="image">
+                        <img src="https://i.postimg.cc/J4h7Bc1k/green.jpg" loading="lazy" alt=""> 
+                    </div>
+                </div>
+                <div class="nile-content">
+                    <div class="nile-content-card">
+                        <h1>Our Vision</h1>
+                        <div class="content_items">
+                            <p>Be a <span class="important">one stop store</span> for the most <span class="important">dynamic animal feeds raw materials</span> in the industry</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nile">
+                <div class="nile-content">
+                    <div class="nile-content-card">
+                        <h1>Products</h1>
+                        <div class="content_items">
+                            <p>We supply a wide variety of products ranging from:</p>
+                            <ul class="nilefeeds">
+                                <li>Beans</li>
+                                <li>Maize</li>
+                                <li>Green Grams</li>
+                                <li>Peas</li>
+                                <li>Soya Beans</li>
+                                <li>Wheat Bran</li>
+                                <li>Palm kernel meal</li>
+                                <li>Soybean meal</li>
+                                <li>Wheat Pollard</li>
+                                <li>Sesame meal</li>
+                                <li>Cotton Cake</li>
+                                <li>Sunflower seed Cake</li>
+                                <li>Maize Germ</li>
+                                <li>Maize meal</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="nile-image">
+                    <div class="image">
+                        <a 
+                            data-flickr-embed="true" 
+                            data-context="true" 
+                            href="https://www.flickr.com/photos/189765821@N02" 
+                            title="">
+                            <img 
+                            loading="lazy"
+                            src="https://live.staticflickr.com/65535/50240497603_706b9b9e5f_b.jpg" 
+                            alt="">
+                         </a>
+                    </div>
+                </div>
+            </div>
+            <div class="nile">
+                <div class="nile-image">
+                    <div class="image">
+                        <img src="https://i.postimg.cc/FHMhqM0y/cereals.jpg" loading="lazy" alt=""> 
+                    </div>
+                 
+
+                </div>
+                <div class="nile-content">
+                    <div class="nile-content-card">
+                        <h1>Why do our clients love us?</h1>
+                        <div class="content_items">
+                            <ul>
+                                <li>Our Products are free from aflotoxins and extremely low moisture content levels</li>
+                                <li>High quality & Affordable animal feeds raw materials.</li>
+                                <li>Our products are important ingredients with high energy and protein contents.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-links">
+                    <ul class="links">
+                        <li><a href="index.html" class="pointer">About Us</a></li>
+                        <li ><a id="market" onclick="marketplace()" class="pointer">Marketplace</a></li>
+                        <li ><a id="social" onclick="social()" class="pointer">Social</a></li>
+                        <li><a id="team" onclick="team()" class="pointer">Team</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <ul class="links">
+                        <li><a target="_blank" href="https://www.facebook.com/nilefeeds">Facebook</a></li>
+                        <li><a target="_blank" href="https://twitter.com/nilefeeds">Twitter</a></li>
+                        <li><a target="_blank" href="https://www.linkedin.com/company/nile-feeds-and-cereals-supplies/">Linkeldin</a></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+        <script src="assets/js/main.js" async defer></script>
+    </body>
+</html>
